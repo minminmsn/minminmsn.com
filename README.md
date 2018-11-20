@@ -20,7 +20,7 @@ https://buy.cloud.tencent.com/ssl
 
 ### 架构设计
 #### 效果图
-![]https://github.com/minminmsn/accesslog-analysis-alarm/blob/master/images/minminmsn.jpg
+![](https://github.com/minminmsn/accesslog-analysis-alarm/blob/master/images/minminmsn.jpg)
 #### Nginx(证书、跳转、流控、反向代理）    
        |
 #### Docker源站（安全、缓存插件）    
