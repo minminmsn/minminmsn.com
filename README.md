@@ -19,17 +19,19 @@ https://buy.cloud.tencent.com/ssl
 
 
 ### 架构设计
-#### nginx(证书、跳转、流控、反向代理）    
+#### 效果图
+![]https://github.com/minminmsn/accesslog-analysis-alarm/blob/master/images/minminmsn.jpg
+#### Nginx(证书、跳转、流控、反向代理）    
        |
-#### docker源站（安全、缓存插件）    
+#### Docker源站（安全、缓存插件）    
        |
-#### docker数据库（mysql）    
+#### Docker数据库（mysql）    
        |
 #### 定期备份（脚本）    
 
 
 ### 部署配置
-#### nginx部署
+#### Nginx部署
 ```
 wget http://nginx.org/download/nginx-1.14.1.tar.gz
 tar zxvf nginx-1.14.1.tar.gz
@@ -38,7 +40,7 @@ cd nginx-1.14.1/
 make
 make install 
 ```
-#### nginx配置
+#### Nginx配置
 ```
 user  nobody;
 worker_processes  auto;
