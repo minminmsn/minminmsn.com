@@ -11,7 +11,9 @@
 个人站点备案，借助平台还是很方便的，大概20工作日左右可完成（根据大陆法所有域名需要备案，否则后果自负）  
 参考：https://console.cloud.tencent.com/beian
 
-
+### 公安备案
+个人站点非交互页面比较好备案，需要ICP备案后30日启动  
+参考：https://cloud.tencent.com/document/product/243/19142  
 ### 证书申请
 竟然有域名型免费版可以免费试用一年（窃喜）  
 https://buy.cloud.tencent.com/ssl
@@ -169,6 +171,8 @@ Chilly是一个响应式，多功能的WordPress主题。灵活的它，适合�
 后台统计，可对地域及点击率进行分析
 + #### SSL-insecure-content-fixer
 帮助您清理并修复 WordPress 站点的 HTTPS 不安全内容
++ #### Disable comments
+为了最大化的安全及ICP备案后公安网备案个人非交互站点需要禁用评论功能
 
 ### 原创内容（九九归一，支持原创）
 + #### 佛学
