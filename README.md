@@ -19,27 +19,27 @@
  * [八、插件选型](#8)
  * [九、原创内容](#9)
  
-### 域名注册
+### <h3 id="1">一、域名注册</h3>
 选择一个有代表性的域名，比如：minminmsn.com  
 参考：https://buy.cloud.tencent.com/domain?from=console
 
 
-### 域名备案
+### <h3 id="2">二、域名备案</h3>
 个人站点备案，借助平台还是很方便的，大概20工作日左右可完成（根据大陆法所有域名需要备案，否则后果自负）  
 参考：https://console.cloud.tencent.com/beian
 
 
-### 公安备案
+### <h3 id="3">三、公安备案</h3>
 个人站点非交互页面比较好备案，需要ICP备案后30日启动  
 参考：https://cloud.tencent.com/document/product/243/19142  
 
 
-### 证书申请
+### <h3 id="4">四、证书申请</h3>
 竟然有域名型免费版可以免费试用一年（窃喜）  
 https://buy.cloud.tencent.com/ssl
 
 
-### 架构设计
+### <h3 id="5">架构设计</h3>
 #### 效果图
 ![](https://github.com/minminmsn/accesslog-analysis-alarm/blob/master/images/minminmsn.jpg)
 
