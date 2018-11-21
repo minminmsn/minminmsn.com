@@ -39,11 +39,11 @@
 https://buy.cloud.tencent.com/ssl
 
 
-### <h3 id="5">架构设计</h3>
-#### 效果图
+### <h3 id="5">五、架构设计</h3>
+#### <h4 id="5.1">5.1 效果图</h4>
 ![](https://github.com/minminmsn/accesslog-analysis-alarm/blob/master/images/minminmsn.jpg)
 
-#### 架构图
+#### <h4 id="5.2">5.2 架构图</h4>
 #### Nginx(证书、跳转、流控、反向代理）    
        |
 #### Docker源站（安全、缓存插件）    
@@ -53,8 +53,8 @@ https://buy.cloud.tencent.com/ssl
 #### 定期备份（脚本）    
 
 
-### 部署配置
-#### Nginx部署
+### <h3 id="6">六、部署配置</h3>
+#### <h4 id="6.1">6.1 Nginx部署</h4>
 ```
 wget http://nginx.org/download/nginx-1.14.1.tar.gz
 tar zxvf nginx-1.14.1.tar.gz
@@ -63,7 +63,7 @@ cd nginx-1.14.1/
 make
 make install 
 ```
-#### Nginx配置
+#### <h4 id="6.2">6.2 Nginx配置</h4>
 ```
 user  nobody;
 worker_processes  auto;
@@ -147,7 +147,7 @@ http {
     }
 }
 ```
-#### Docker部署
+#### <h4 id="6.3">6.3 Docker部署</h4>
 ```
 docker可以当做一个可以开启暂停重启关闭的程序，只要数据保存到外部不丢失，使用起来非常方便快捷
 docker pull mysql:5.7
@@ -156,12 +156,13 @@ docker run --name mysql  -v /yourpath/db:/var/lib/mysql  -e MYSQL_ROOT_PASSWORD=
 docker run --name wordpress -v /yourpath/www:/var/www/html  --restart=always  --link mysql:mysql -p 8080:80 -d wordpress
 ```
 
-### 主题选型
+### <h3 id="7">七、前端设计（简洁明快）</h3>
+#### <h4 id="7.1">7.1 模板</h4>
 > （选择能Hold住且清新脱俗的）
 Chilly是一个响应式，多功能的WordPress主题。灵活的它，适合显示机构、博客、商业、公司或作品集。定制是容易和直接的，提供的选项能让您设置您的站点，以完全符合您所期望的在线存在。请访问此链接https://wordpress.org/themes/spicepress/。
 
 
-### 前端设计（简洁明快博雅）
+#### <h4 id="7.2">7.2 布局</h4>
 + #### 主题
 > ##### 三杯水
 + #### 开源背景图
